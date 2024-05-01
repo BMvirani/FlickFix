@@ -1,0 +1,10 @@
+{
+ 
+    "nowPlayingMovies": "https://api.themoviedb.org/3/movie/now_playing?language=en-US&page=1",
+    "popularMovies": "https://api.themoviedb.org/3/movie/popular?language=en-US&page=1",
+    "topRatedMovies":"https://api.themoviedb.org/3/movie/top_rated?language=en-US&page=1",
+    "upComingMovies":"https://api.themoviedb.org/3/movie/upcoming?language=en-US&page=1",
+    "searchMovie":"https://api.themoviedb.org/3/search/movie?query=[QUERY]&include_adult=false&language=en-US&page=1",
+      "movieDetails":"https://api.themoviedb.org/3/movie/[ID]?language=hin",
+      "similarMovies":"https://api.themoviedb.org/3/movie/[ID]/similar?language=en-US&page=1"
+}
