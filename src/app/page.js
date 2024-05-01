@@ -18,11 +18,11 @@ export default function Home() {
   const [mainVideoInfo, setMainVideoInfo] = useState(null);
 
   const { data: session } = useSession();
-  useEffect(() => {
-    if (!session) {
-      redirect("/login");
-    }
-  }, [session]);
+  // useEffect(() => {
+  //   if (!session) {
+  //     redirect("/login");
+  //   }
+  // }, [session]);
   useEffect(() => {
     GetNowPlaying();
     GetPopularMovies();
