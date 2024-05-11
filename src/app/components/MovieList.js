@@ -8,13 +8,13 @@ const MovieList = ({ moviesData, title }) => {
   const [rootLoader, setRootLoader] = useState(true);
   useEffect(() => {
     setMovieList(moviesData);
-    if(movieList){
+    if(moviesData){
       setTimeout(() => {
         
         setRootLoader(false);
       }, 1000);
     }
-  }, [movieList]);
+  }, [moviesData]);
   return (
     <>
       {!rootLoader ? (
