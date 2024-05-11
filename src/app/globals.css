@@ -30,7 +30,7 @@ h4 {
 /* Navbar style */
 .navbar-wrap {
   position: fixed;
-  top: -63px;  /* Initially off-screen */
+  top: -68px;  /* Initially off-screen */
   right: 0;
   left: 0;
   padding: 15px 40px;
@@ -656,6 +656,42 @@ height: 60vh !important;
      height: 100% !important;
      width: 100% !important;
 }
+.movie-card-list-skelton-box {
+  
+  overflow: scroll;
+  display: inherit;
+  overflow-y: hidden;
+}
+.movie-card-list-skelton-box::-webkit-scrollbar {
+  display: none;
+}
+.movie-list-skeleton-wrap {
+  margin-top: 50px ;
+}
+.movie-card-skeleton {
+  margin-right: 20px;
+  height: 248px !important;
+  width: 190px !important;
+  margin-bottom: 15px;
+  border-radius: 4px;
+}
+.movie-card-title-skeleton {
+  height: 25px !important;
+  width: 20% !important;
+  margin-bottom: 15px;
+}
+.movie-card-title-skeleton span {
+  width: 100% !important;
+  height: 100% !important;
+}
+.movie-card-skeleton span{
+  height: 100% !important;
+  width: 100% !important;
+}
 
-
-
+ .ant-skeleton-element,
+ .ant-skeleton-avatar,
+ .ant-skeleton-button,
+ .ant-skeleton-input { 
+    background-color: #282828; /* Light gray background */
+}
